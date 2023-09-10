@@ -5,7 +5,7 @@ import React, { useState } from "react";
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div>
+    <div className="dropdown">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
         className="inline-block align-baseline text-black font-sans text-7xl w-36"

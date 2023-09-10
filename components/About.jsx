@@ -2,7 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <div className="tracking-wide font-sans pt-96 text-justify grid justify-items-stretch ">
+    <div
+      id="about"
+      className=" tracking-wide font-sans pt-96 text-justify grid justify-items-stretch "
+    >
       <h3 className="font-bold text-2xl pt-32 pb-10 justify-self-center">
         Sobre mí
       </h3>
