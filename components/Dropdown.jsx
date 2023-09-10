@@ -1,9 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
-import { AiOutlineCaretUp, AiOutlineCaretDown } from "react-icons";
-import { icons } from "react-icons";
 
 function Dropdown() {
   const [isOpen, setIsOpen] = useState(false);
