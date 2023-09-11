@@ -4,12 +4,12 @@ function About() {
   return (
     <div
       id="about"
-      className=" tracking-wide font-sans pt-96 text-justify grid justify-items-stretch "
+      className=" tracking-wide font-sans pt-32 sm:pt-36 lg:pt-96 text-justify grid justify-items-stretch "
     >
-      <h3 className="font-bold text-2xl pt-32 pb-10 justify-self-center">
+      <h3 className="font-bold text-2xl pt-52 lg:pt-32 pb-8 justify-self-center italic">
         Sobre mí
       </h3>
-      <p className="px-5 lg:px-52">
+      <p className="px-8 lg:px-52">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
         facilisis nulla. Vivamus eget vulputate dui, nec iaculis ipsum. Mauris
         eleifend mauris at viverra efficitur. Fusce ac lorem sed orci interdum
@@ -29,7 +29,7 @@ function About() {
         pharetra pellentesque. Nulla eget nisi eu quam hendrerit maximus quis id
         libero. Curabitur ornare augue ex.
       </p>
-      <p className="px-5 lg:px-52">
+      <p className="px-8 lg:px-52">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
         facilisis nulla. Vivamus eget vulputate dui, nec iaculis ipsum. Mauris
         eleifend mauris at viverra efficitur. Fusce ac lorem sed orci interdum
