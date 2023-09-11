@@ -17,10 +17,7 @@ export default function Home() {
         </div>
         <Navbar />
       </nav>
-
       <About />
-
-      {/* Mobile navigation */}
     </main>
   );
 }
