@@ -16,7 +16,7 @@ function DropdownMenuNav() {
     <div className="dropdown ">
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="lg:inline-block align-baseline text-black font-sans w-36 sm:text-3xl lg:text-7xl hidden"
+        className="lg:inline-block align-baseline text-black font-sans w-36 sm:text-3xl lg:text-7xl pl-2 hidden"
       >
         ≡
       </button>
