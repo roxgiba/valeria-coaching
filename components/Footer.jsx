@@ -37,13 +37,13 @@ function Footer() {
           </Link>
         </div>
         <h1
-          className="p-2 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold text-center
+          className="p-2 lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-medium  text-center
      md:w-2/5"
         >
           ¡Hablemos!
         </h1>
         <button
-          className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-[Poppins]
+          className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-medium uppercase
        rounded-md text-black hover:text-white md:w-auto w-full"
         >
           Reserva tu primera sesión gratuita
