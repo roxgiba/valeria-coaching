@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import About from "@/components/About";
 import Image from "next/image";
+import Coaching from "@/components/Coaching";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar />
       </nav>
       <About />
+      <Coaching />
     </main>
   );
 }
