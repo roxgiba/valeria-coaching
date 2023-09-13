@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import {
   Dropdown,
   DropdownTrigger,
@@ -26,12 +27,16 @@ function DropdownMenuNav() {
           <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
             Inicio
           </button>
-          <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
-            Sobre mí
-          </button>
-          <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
-            ¿En qué consiste el Coaching?
-          </button>
+          <Link href="/#about">
+            <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
+              Sobre mí
+            </button>
+          </Link>
+          <Link href="/#coaching">
+            <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
+              ¿En qué consiste el Coaching?
+            </button>
+          </Link>
           <button className="pl-4  pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
             Servicios
           </button>
