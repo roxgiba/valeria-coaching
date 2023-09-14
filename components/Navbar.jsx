@@ -12,9 +12,9 @@ const Navbar = () => {
     <>
       <header className="bg-slate-300/50 border-b border-gray-300 py-2">
         <div className="flex justify-between items-center  px-[8%] flex-wrap">
-          <p className="text-black font-sans text-2xl sm:text-2xl lg:text-3xl ">
+          <p className="text-black font-sans text-xl sm:text-2xl lg:text-3xl ">
             Coaching by{" "}
-            <span className="italic text-3xl sm:text-3xl lg:text-4xl">
+            <span className="italic text-2xl sm:text-3xl lg:text-4xl">
               Valeria Topai
             </span>
           </p>
