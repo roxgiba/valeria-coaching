@@ -43,7 +43,7 @@ function Footer() {
           ¡Hablemos!
         </h1>
         <button
-          className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-medium uppercase
+          className="bg-white hover:bg-blue-500 duration-300 py-2 px-4 lg:px-6 lg:py-2 font-medium uppercase
        rounded-md text-black hover:text-white md:w-auto w-full"
         >
           Reserva tu primera sesión gratuita

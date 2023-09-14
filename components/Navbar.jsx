@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <>
       <header className="bg-slate-300/50 border-b border-gray-300 py-2">
-        <div className="flex justify-between items-center xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap">
-          <p className="text-black font-sans text-xl sm:text-2xl lg:text-2xl ">
+        <div className="flex justify-between items-center  px-[8%] flex-wrap">
+          <p className="text-black font-sans text-xl sm:text-2xl lg:text-3xl ">
             Coaching by{" "}
-            <span className="italic text-xl sm:text-3xl lg:text-3xl">
+            <span className="italic text-xl sm:text-3xl lg:text-4xl">
               Valeria Topai
             </span>
           </p>
@@ -28,18 +28,18 @@ const Navbar = () => {
             } lg:flex lg:items-center lg:w-auto w-full`}
           >
             <ul className="text-base text-gray-600 lg:flex lg:justify-between">
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-xl  font-semibold">
+              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md  font-semibold">
                 <Link href="/">Inicio</Link>
               </li>
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-xl font-semibold">
+              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md font-semibold">
                 <Link href="/#about">Sobre mi</Link>
               </li>
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-xl  font-semibold">
+              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md  font-semibold">
                 <Link href="/#coaching">Coaching</Link>
               </li>
               <li
                 className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-medium uppercase
-       rounded-md text-black hover:text-white md:w-auto w-full"
+       rounded-md text-black hover:text-white md:w-auto w-full text-center"
               >
                 <Link href="/">Reserva tu primera sesión gratuita</Link>
               </li>
