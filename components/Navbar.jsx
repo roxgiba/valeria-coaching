@@ -4,8 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 
-//import NavLogo from "../public/assets/kenlogo.svg";
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -41,7 +39,9 @@ const Navbar = () => {
                 className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-medium uppercase
        rounded-md text-black hover:text-white md:w-auto w-full text-center"
               >
-                <Link href="/">Reserva tu primera sesión gratuita</Link>
+                <Link href="https://calendly.com/rox-giba">
+                  Reserva tu primera sesión gratuita
+                </Link>
               </li>
             </ul>
           </nav>
