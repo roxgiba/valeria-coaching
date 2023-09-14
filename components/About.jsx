@@ -4,9 +4,9 @@ function About() {
   return (
     <div
       id="about"
-      className=" tracking-wide font-sans pt-32 sm:pt-36 lg:pt-96 text-justify grid justify-items-stretch "
+      className=" tracking-wide font-sans text-justify grid justify-items-stretch "
     >
-      <h3 className="font-bold text-amber-700 text-2xl lg:text-4xl pt-52 lg:pt-38 pb-8 justify-self-center italic">
+      <h3 className="font-bold text-amber-700 text-2xl lg:text-4xl pt-10 pb-8 justify-self-center italic">
         Sobre mí
       </h3>
       <div className="px-8 text-center text-lg lg:px-52">

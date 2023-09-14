@@ -24,9 +24,11 @@ function DropdownMenuNav() {
 
       {isOpen && (
         <div className="bg-white/70 absolute top-24 flex flex-col rounded-lg p-2 sm:text-base lg:text-xl leading-loose">
-          <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
-            Inicio
-          </button>
+          <Link href="/">
+            <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
+              Inicio
+            </button>
+          </Link>
           <Link href="/#about">
             <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
               Sobre mí
