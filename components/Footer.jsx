@@ -42,12 +42,14 @@ function Footer() {
         >
           ¡Hablemos!
         </h1>
-        <button
-          className="bg-white hover:bg-blue-500 duration-300 py-2 px-4 lg:px-6 lg:py-2 font-medium uppercase
+        <Link href="https://calendly.com/rox-giba">
+          <button
+            className="bg-white hover:bg-blue-500 duration-300 py-2 px-4 lg:px-6 lg:py-2 font-medium uppercase
        rounded-md text-black hover:text-white md:w-auto w-full"
-        >
-          Reserva tu primera sesión gratuita
-        </button>
+          >
+            Reserva tu primera sesión gratuita
+          </button>
+        </Link>
       </div>
       <div className="justify-center text-center pt-3 text-gray-400 text-sm pb-8">
         <span>© 2023 Valeria Topai. All rights reserved.</span>
