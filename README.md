@@ -1,34 +1,41 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Personal Coaching Website Project
 
-First, run the development server:
+This repository contains the source code for a personal coaching website, developed using modern technologies such as Next.js and React. The site is designed to provide information about the coaching services offered by Valeria Topai, with specific sections for the home, about Valeria, coaching, and the option to book a free session.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Project Structure
+
+- **components/Navbar.js**: Navigation bar component that includes links to the main sections of the site and a dropdown menu for mobile devices.
+- **components/About.js**: Component that provides detailed information about Valeria Topai, her experience, and her coaching approach.
+- **components/Coaching.js**: Component highlighting the coaching services offered by Valeria.
+- **components/Footer.js**: Footer component that includes contact information and relevant links.
+- **pages/index.js**: Main page of the site that imports and displays different components.
+
+## Technologies Used
+
+- **Next.js:**: React framework for web development that enables server-side rendering and facilitates the creation of modern web applications.
+- **React.js**: JavaScript library for building interactive and dynamic user interfaces.
+- **Tailwind CSS**: CSS utility framework that facilitates responsive design and styling.
+
+## Usage Instructions
+
+1. Clone this repository to your local machine.
 ```
+git clone https://github.com/roxgiba/valeria-coaching
+```
+2. Install the necessary dependencies.
+```
+npm install
+```
+3. Install the necessary dependencies.
+```
+npm run dev
+```
+The application will be available at [http://localhost:3000](http://localhost:3000)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open [Valeria Coaching](https://valeria-coaching.vercel.app/) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
