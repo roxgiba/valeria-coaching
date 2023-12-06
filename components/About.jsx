@@ -9,12 +9,10 @@ function About() {
       <div className="px-8 text-center text-gray-800 text-lg lg:px-52 tracking-wide ">
         <div className="leading-loose">
           <p>
-            Soy Coach especializada en desarrollo personal y gestión emocional.
-            Mi propósito es guiarte hacia el éxito personal, proporcionándote
-            las herramientas necesarias para alcanzar tus metas. A lo largo de
-            mi vida, he superado momentos de incertidumbre y desmotivación
-            gracias al coaching. Con experiencia en diversas culturas, he vivido
-            en ciudades como Bogotá, Roma, Madrid, Andorra y Barcelona.
+            Hola, me llamo Valeria y soy Coach especializada en desarrollo
+            personal y gestión emocional. Mi propósito es guiarte hacia el éxito
+            personal, proporcionándote las herramientas necesarias para alcanzar
+            tus metas.
           </p>
 
           <p>
@@ -23,13 +21,16 @@ function About() {
             vino. Tras un golpe emocional, descubrí el coaching como una
             poderosa herramienta para conectar con mi esencia. Este proceso
             transformó mi vida, alineando mis valores y revelando mi verdadera
-            vocación.
+            vocación. <br /> A lo largo de mi vida, he superado momentos de
+            incertidumbre y desmotivación gracias al coaching. Con experiencia
+            en diversas culturas, he vivido en ciudades como Bogotá, Roma,
+            Madrid, Andorra y Barcelona.
           </p>
 
           <p>
-            Hoy, como coach, mi objetivo es ser tu guía para que te conviertas
+            Hoy, como Coach, mi objetivo es ser tu guía para que te conviertas
             en tu mejor mentor y logres la felicidad. <br />{" "}
-            <span className="font-semibold">
+            <span className="font-semibold text-xl">
               ¡Estoy aquí para apoyarte en tu desarrollo personal y crecimiento
               emocional!
             </span>

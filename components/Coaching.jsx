@@ -71,24 +71,24 @@ function Coaching() {
       </div>
       <div className="text-center mt-24">
         <div>
-          <h1 className="text-amber-700 text-2xl">
-            Algunas preguntas que te pueden ayudar a dar el siguiente paso. Si
-            te sientes identificado al menos con una..No lo dudes porque un
-            proceso de coaching te puede ayudar!
-          </h1>
-          <p>¿Te sientes estresada/o?</p>
-          <p>¿Te sientes perdida/o? </p>
-          <p>¿Necesitas un cambio y no sabes por donde empezar?</p>
-          <p>
-            ¿Necesitas mejorar una o varias de tus competencias / habilidades?
+          <p className="text-amber-700 text-3xl">
+            Algunas preguntas que pueden orientarte hacia el próximo paso: Si te
+            identificas con al menos una... <br /> ¡No dudes en considerar un
+            proceso de coaching!
           </p>
-          <p>¿Quieres emprender un nuevo proyecto? </p>
-          <p>¿Quieres mejorar la relación con alguien? </p>
-          <p>¿Quieres mejorar mi autoestima? </p>
-          <p>¿Quieres cambiar de trabajo?</p>
-          <p>¿Tienes miedo de dar el primer paso? </p>
-          <p>¿Te encuentras en una situación que no toleras más?</p>
-          <p>¿Quiero explorar de qué eres capaz?</p>
+          <div className="text-gray-800 text-lg">
+            <p>¿Sientes estrés?</p>
+            <p>¿Te encuentras perdido/a? </p>
+            <p>¿Buscas un cambio pero no sabes por dónde empezar?</p>
+            <p>¿Necesitas mejorar tus competencias o habilidades?</p>
+            <p>¿Deseas emprender un nuevo proyecto?</p>
+            <p>¿Quieres fortalecer tus relaciones interpersonales? </p>
+            <p>¿Aspiras a elevar tu autoestima?</p>
+            <p>¿Contemplas cambiar de trabajo?</p>
+            <p>¿Sientes temor al dar el primer paso? </p>
+            <p>¿Te encuentras en una situación que ya no toleras?</p>
+            <p>¿Quisieras explorar tus capacidades al máximo?</p>
+          </div>
         </div>
       </div>
     </div>
