@@ -10,22 +10,25 @@ function Coaching() {
       </div>
 
       <div className=" lg:px-72  text-black text-center text-lg lg:text-2xl  grid justify-items-center">
-        <div className=" bg-red-100 rounded-md place-self-start box-border w-64 lg:w-96 p-10 m-5 border-4 shadow-2xl border-double">
+        <div className=" bg-red-100 rounded-md place-self-start box-border w-64 lg:w-96 p-10 m-5 border-4 border-yellow-100/100 shadow-2xl ">
           Se trata de un proceso de autodescubrimiento que te ayudará a conectar
           con tus objetivos y tu compromiso para alcanzarlos.
         </div>
-        <div className="bg-red-100 box-border w-72 lg:w-96 p-10 m-5 border-4 rounded-md place-self-end shadow-2xl border-double ">
+        <div
+          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+          className="bg-red-100 box-border w-72 lg:w-96 p-10 m-5 rounded-md place-self-end shadow-2xl border-4 border-blue-400/100 "
+        >
           El proceso consiste en varias sesiones de una hora aproximadamente
           cada una, (normalmente un mínimo de 5) en las cuales el coach te va a
           acompañar, con preguntas, feedbacks y en ocasiones ejercicios, hacia
           ese lugar donde quieres estar.
         </div>
-        <div className="bg-red-100 box-border w-64 lg:w-96 p-10 m-5 border-4 rounded-md place-self-start shadow-2xl border-double ">
+        <div className="bg-red-100 box-border w-64 lg:w-96 p-10 m-5 border-4 border-purple-400/100 rounded-md place-self-start shadow-2xl ">
           Sea cual sea tu meta, un proceso de Coaching te ayudará a descubrir
           que necesitas incorporar y que necesitas soltar para conseguir lo que
           quieres.{" "}
         </div>
-        <div className="bg-red-100 box-border w-60 lg:w-96 p-10 border-4  m-5 rounded-md place-self-end shadow-2xl border-double">
+        <div className="bg-red-100 box-border w-60 lg:w-96 p-10 border-4 border-green-700/100 m-5 rounded-md place-self-end shadow-2xl ">
           Mi misión como coach es acompañarte en este proceso para que te
           conviertas en tu mejor maestro para alcanzar tu propio éxito!
         </div>
