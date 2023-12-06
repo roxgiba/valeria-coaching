@@ -1,12 +1,24 @@
 import React from "react";
+import Image from "next/image";
 
 function Coaching() {
   return (
     <div id="coaching">
-      <div className=" tracking-wide font-sans pt-6 text-justify grid justify-items-stretch">
-        <h1 className="font-semibold text-amber-700 text-2xl lg:text-4xl text-center m-5  pb-20 justify-self-center italic">
-          ¿En qué consiste un proceso de Coaching?
-        </h1>
+      <div className="md:flex md:items-center md:justify-center p-10">
+        <div className="flex items-center justify-between text-amber-700 place-items-center md:w-1/2 md:pl-5">
+          <h1 className="font-bold text-2xl md:text-4xl uppercase pb-5 text-center">
+            ¿En qué consiste un proceso de Coaching?
+          </h1>
+        </div>
+        <div className="">
+          <Image
+            src="/whatiscoaching.jpeg"
+            alt="drawing of 2 persons untangling the mess into a big head"
+            width={600}
+            height={600}
+            className="bg-contain bg-center"
+          />
+        </div>
       </div>
 
       <div className=" lg:px-72  text-black text-center text-lg lg:text-2xl  grid justify-items-center">
