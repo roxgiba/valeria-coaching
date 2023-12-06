@@ -31,10 +31,10 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
             <li>
-              <a>Sobre mí</a>
+              <a href="#about">Sobre mí</a>
             </li>
             <li>
-              <a>Coaching</a>
+              <a href="#coaching">Coaching</a>
             </li>
             <li>
               <a>Servicios</a>
