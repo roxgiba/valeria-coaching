@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="bg-slate-300/50 border-b border-gray-300 py-2">
+      <header className="bg-amber-600/30   py-2">
         <div className="flex justify-between items-center  px-[8%] flex-wrap">
           <Image
             src="/icon.png"
