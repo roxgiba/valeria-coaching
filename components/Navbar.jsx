@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="navbar bg-base-400 h-32 text-gray-700">
+    <div className="navbar bg-base-400 h:18 md:h-32 text-gray-700">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -40,7 +40,7 @@ const Navbar = () => {
               <a>Servicios</a>
             </li>
             <li className="lg:hidden">
-              <a>Session gratuita</a>
+              <a>Sesión gratuita</a>
             </li>
           </ul>
         </div>
