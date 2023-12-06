@@ -14,10 +14,10 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <Image
           src="/girl_flying.avif"
-          alt="sofa image"
+          alt="woman standing openarms facing the sun"
           width={600}
           height={600}
-          className="object-cover object-center self-auto transition-opacity opacity-0 duration-[2s]"
+          className="object-cover object-center self-auto transition-opacity opacity-0 duration-[1s]"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>
