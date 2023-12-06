@@ -1,61 +1,71 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
-import { FiMenu } from "react-icons/fi";
 import Image from "next/image";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
   return (
-    <>
-      <header className="bg-amber-600/30   py-2">
-        <div className="flex justify-between items-center  px-[8%] flex-wrap">
-          <Image
-            src="/icon.png"
-            alt="colibri"
-            width={70}
-            height={70}
-            className=""
-          />
-          <p className="text-black font-sans text-xl sm:text-2xl lg:text-3xl ">
-            Coaching by{" "}
-            <span className="italic text-2xl sm:text-3xl lg:text-4xl">
-              Valeria Topai
-            </span>
-          </p>
-          <FiMenu
-            className="lg:hidden block h-6 w-6 cursor-pointer"
-            onClick={() => setOpen(!open)}
-          />
-          <nav
-            className={`${
-              open ? "block" : "hidden"
-            } lg:flex lg:items-center lg:w-auto w-full`}
+    <div className="navbar bg-base-400 h-32 text-gray-700">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
-            <ul className="text-base text-gray-600 lg:flex lg:justify-between">
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md  font-semibold">
-                <Link href="/">Inicio</Link>
-              </li>
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md font-semibold">
-                <Link href="/#about">Sobre mi</Link>
-              </li>
-              <li className="lg:px-5 py-2 hover:text-blue-500 hover:bg-white hover:rounded-md  font-semibold">
-                <Link href="/#coaching">Coaching</Link>
-              </li>
-              <li
-                className="bg-white hover:bg-blue-500 duration-300 px-5 py-2.5 font-semibold uppercase
-       rounded-md text-black hover:text-white md:w-auto w-full text-center"
-              >
-                <Link href="https://calendly.com/rox-giba">
-                  Reserva tu primera sesión gratuita
-                </Link>
-              </li>
-            </ul>
-          </nav>
+            <li>
+              <a>Sobre mí</a>
+            </li>
+            <li>
+              <a>Coaching</a>
+            </li>
+            <li>
+              <a>Servicios</a>
+            </li>
+            <li className="lg:hidden">
+              <a>Session gratuita</a>
+            </li>
+          </ul>
         </div>
-      </header>
-    </>
+      </div>
+      <div className="navbar-center">
+        <Image
+          src="/icon.png"
+          alt="colibri"
+          width={50}
+          height={50}
+          className=""
+        />
+        <a className="font-semibold text-md lg:text-3xl">
+          Coaching by <span className="italic">Valeria Topai</span>
+        </a>
+      </div>
+      <div className="navbar-end">
+        <button
+          className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block "
+          href="https://calendly.com/rox-giba"
+        >
+          Reserva tu primera sesión gratuita
+        </button>
+      </div>
+    </div>
   );
 };
 
