@@ -5,3 +5,11 @@
 p {
   margin: 20px;
 }
+
+#sfondo {
+  background-color: #ffddcc;
+}
+
+html {
+  font-family: var(--font-montserrat);
+}

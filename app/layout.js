@@ -1,8 +1,13 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import Layout from "../components/Layout";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  weight: ["300", "600"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Coaching by Valeria Topai",
@@ -11,8 +16,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={montserrat.className}>
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }

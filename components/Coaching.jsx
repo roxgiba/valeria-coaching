@@ -30,6 +30,19 @@ function Coaching() {
           conviertas en tu mejor maestro para alcanzar tu propio éxito!
         </div>
       </div>
+      <div>
+        <p>
+          Algunas preguntas que te pueden ayudar a dar el siguiente paso. Si te
+          sientes identificado al menos con una..No lo dudes porque un proceso
+          de coaching te puede ayudar! ¿Te sientes estresada/o? ¿Te sientes
+          perdida/o? ¿Necesitas un cambio y no sabes por donde empezar?
+          ¿Necesitas mejorar una o varias de tus competencias / habilidades?
+          ¿Quieres emprender un nuevo proyecto? ¿Quieres mejorar la relación con
+          alguien? ¿Quieres mejorar mi autoestima? ¿Quieres cambiar de trabajo?
+          ¿Tienes miedo de dar el primer paso? ¿Te encuentras en una situación
+          que no toleras más? ¿Quiero explorar de qué eres capaz?
+        </p>
+      </div>
     </div>
   );
 }
