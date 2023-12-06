@@ -2,15 +2,12 @@ import React from "react";
 
 function About() {
   return (
-    <div
-      id="about"
-      className=" tracking-wide font-sans text-justify grid justify-items-stretch "
-    >
-      <h3 className="font-bold text-amber-700 text-2xl lg:text-4xl pt-10 pb-8 justify-self-center italic">
+    <div id="about" className="text-justify grid justify-items-stretch ">
+      <h3 className="font-semibold text-amber-700 text-2xl lg:text-4xl pt-10 pb-8 justify-self-center italic">
         Sobre mí
       </h3>
-      <div className="px-8 text-center text-lg lg:px-52">
-        <p className="leading-relaxed">
+      <div className="px-8 text-center text-lg lg:px-52 tracking-wide ">
+        <p className="leading-loose">
           Soy Coach especializada en desarrollo personal y gestión emocional,
           dedicada a guiar a las personas hacia el éxito personal. <br /> Mi
           propósito fundamental es acompañar a individuos en la búsqueda de su

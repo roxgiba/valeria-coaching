@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <div className="flex items-center justify-center ">
         <Image
-          src="/sofa.jpg"
+          src="/girl_flying.avif"
           alt="sofa image"
           width={600}
           height={600}

@@ -4,7 +4,7 @@ function Coaching() {
   return (
     <div id="coaching">
       <div className=" tracking-wide font-sans pt-6 text-justify grid justify-items-stretch">
-        <h1 className="font-bold text-amber-700 text-2xl lg:text-4xl text-center m-5  pb-20 justify-self-center italic">
+        <h1 className="font-semibold text-amber-700 text-2xl lg:text-4xl text-center m-5  pb-20 justify-self-center italic">
           ¿En qué consiste un proceso de Coaching?
         </h1>
       </div>
