@@ -18,7 +18,7 @@ export default function Home() {
           alt="woman standing openarms facing the sun"
           width={600}
           height={600}
-          className="object-cover object-center self-auto transition-opacity opacity-0 duration-[1s]"
+          className="object-cover object-center self-auto transition-opacity opacity-0 duration-[1s] mb-20"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>

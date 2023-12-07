@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" className="text-justify grid justify-items-stretch ">
+    <div id="about" className="text-justify grid justify-items-stretch mb-36">
       <h3 className="font-semibold text-gray-700 text-2xl lg:text-4xl pt-10 pb-8 justify-self-center">
         Sobre mí
       </h3>
