@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import Layout from "../components/Layout";
 
 const montserrat = Montserrat({
   weight: ["300", "600"],
@@ -11,7 +10,7 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: "Coaching by Valeria Topai",
-  description: "Valeria Topai Coaching Portfolio",
+  description: "Explora tu potencial y alcanza tus metas con Valeria Topai.",
 };
 
 export default function RootLayout({ children }) {
