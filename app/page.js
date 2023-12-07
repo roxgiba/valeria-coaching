@@ -6,6 +6,7 @@ import Image from "next/image";
 import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
 
       <About />
       <Coaching />
+      <Services />
       <Footer />
     </main>
   );
