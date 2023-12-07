@@ -1,10 +1,11 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import About from "@/components/About";
+import About from "@/app/sobremi/page";
 import Image from "next/image";
-import Coaching from "@/components/Coaching";
+import Coaching from "@/app/coaching/page";
 import Footer from "@/components/Footer";
+import Layout from "@/components/Layout";
 
 export default function Home() {
   return (
