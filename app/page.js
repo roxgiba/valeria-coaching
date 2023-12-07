@@ -1,9 +1,9 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import About from "@/app/sobremi/page";
+import About from "@/components/About";
 import Image from "next/image";
-import Coaching from "@/app/coaching/page";
+import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
 

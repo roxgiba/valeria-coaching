@@ -29,12 +29,12 @@ function DropdownMenuNav() {
               Inicio
             </button>
           </Link>
-          <Link href="/sobremi">
+          <Link href="/#about">
             <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
               Sobre mí
             </button>
           </Link>
-          <Link href="/coaching">
+          <Link href="/#coaching">
             <button className="pl-4 pb-1 rounded-r-lg border-l-transparent hover:bg-slate-100 hover:border-l-white border-l-4">
               ¿En qué consiste el Coaching?
             </button>

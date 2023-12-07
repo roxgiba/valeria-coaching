@@ -31,16 +31,16 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
             <li>
-              <a href="/sobremi">Sobre mí</a>
+              <a href="/#about">Sobre mí</a>
             </li>
             <li>
               <a href="#coaching">Coaching</a>
             </li>
             <li>
-              <a>Servicios</a>
+              <a href="#servicios">Servicios</a>
             </li>
             <li className="lg:hidden">
-              <a>Sesión gratuita</a>
+              <a href="https://calendly.com/rox-giba">Sesión gratuita</a>
             </li>
           </ul>
         </div>
@@ -58,12 +58,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-end">
-        <button
-          className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block "
+        <a
           href="https://calendly.com/rox-giba"
+          className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block pt-5"
         >
           Reserva tu primera sesión gratuita
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -3,13 +3,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Footer() {
+  const handleIconClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
       <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover">Sobre mí</a>
-        <a className="link link-hover">Coaching</a>
-        <a className="link link-hover">Servicios</a>
-        <a className="link link-hover">Sesión gratuita</a>
+        <a className="link link-hover" href="/#about">
+          Sobre mí
+        </a>
+        <a className="link link-hover" href="#coaching">
+          Coaching
+        </a>
+        <a className="link link-hover" href="#servicios">
+          Servicios
+        </a>
+        <a href="https://calendly.com/rox-giba" className="link link-hover">
+          Sesión gratuita
+        </a>
       </nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
@@ -50,17 +62,17 @@ function Footer() {
       </nav>
       <aside>
         <p>Copyright © 2023 - All right reserved by Valeria Topai</p>
+        <Image
+          src="/icon.png"
+          alt="colibri"
+          width={50}
+          height={50}
+          className=""
+          onClick={handleIconClick}
+        />
       </aside>
     </footer>
   );
 }
 
 export default Footer;
-
-/*
-
-
-
-
-
-*/
