@@ -69,25 +69,29 @@ function Coaching() {
       <div className="lg:px-72 text-black text-center font-bold text-lg lg:text-xl grid grid-cols-1 lg:grid-cols-2 gap-8 justify-items-center">
         {renderCoachingItems()}
       </div>
-      <div className="text-center mt-24">
-        <div>
-          <p className="text-amber-700 text-3xl">
-            Algunas preguntas que pueden orientarte hacia el próximo paso: Si te
-            identificas con al menos una... <br /> ¡No dudes en considerar un
-            proceso de coaching!
-          </p>
-          <div className="text-gray-800 text-lg">
-            <p>¿Sientes estrés?</p>
-            <p>¿Te encuentras perdido/a? </p>
-            <p>¿Buscas un cambio pero no sabes por dónde empezar?</p>
-            <p>¿Necesitas mejorar tus competencias o habilidades?</p>
-            <p>¿Deseas emprender un nuevo proyecto?</p>
-            <p>¿Quieres fortalecer tus relaciones interpersonales? </p>
-            <p>¿Aspiras a elevar tu autoestima?</p>
-            <p>¿Contemplas cambiar de trabajo?</p>
-            <p>¿Sientes temor al dar el primer paso? </p>
-            <p>¿Te encuentras en una situación que ya no toleras?</p>
-            <p>¿Quisieras explorar tus capacidades al máximo?</p>
+      <div className="flex justify-center ">
+        <div className="text-center mt-24 bg-red-400 p-5 w-108 rounded-md ">
+          <div>
+            <p className="text-white text-3xl font-bold">
+              Algunas preguntas que pueden orientarte hacia el próximo paso
+            </p>
+            <p className="text-black font-semibold">
+              Si te identificas con al menos una... <br /> ¡No dudes en
+              considerar un proceso de coaching!
+            </p>
+            <div className="text-white text-lg font-semibold">
+              <p>¿Sientes estrés?</p>
+              <p>¿Te encuentras perdido/a? </p>
+              <p>¿Buscas un cambio pero no sabes por dónde empezar?</p>
+              <p>¿Necesitas mejorar tus competencias o habilidades?</p>
+              <p>¿Deseas emprender un nuevo proyecto?</p>
+              <p>¿Quieres fortalecer tus relaciones interpersonales? </p>
+              <p>¿Aspiras a elevar tu autoestima?</p>
+              <p>¿Contemplas cambiar de trabajo?</p>
+              <p>¿Sientes temor al dar el primer paso? </p>
+              <p>¿Te encuentras en una situación que ya no toleras?</p>
+              <p>¿Quisieras explorar tus capacidades al máximo?</p>
+            </div>
           </div>
         </div>
       </div>
