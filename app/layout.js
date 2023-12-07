@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Coaching by Valeria Topai - Desbloquea tu Potencial",
   description: "Explora tu potencial y alcanza tus metas con Valeria Topai.",
-  image: "/opengraph-image.png",
+  image: "/girl_flying.avif",
 };
 
 export default function RootLayout({ children }) {
