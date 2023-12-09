@@ -70,7 +70,7 @@ function Coaching() {
         {renderCoachingItems()}
       </div>
       <div className="flex justify-center ">
-        <div className="text-center mt-24 bg-red-400 p-5 w-108 rounded-md ">
+        <div className="text-center mt-24 bg-orange-300 m-3 p-5 w-108 rounded-md ">
           <div>
             <p className="text-white text-3xl font-bold">
               Algunas preguntas que pueden orientarte hacia el próximo paso
