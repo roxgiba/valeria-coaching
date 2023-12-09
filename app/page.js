@@ -7,6 +7,7 @@ import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
 import Services from "@/components/Services";
+import Servicios from "@/components/Servicios";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
 
       <About />
       <Coaching />
-      <Services />
+      <Servicios />
       <Footer />
     </main>
   );
