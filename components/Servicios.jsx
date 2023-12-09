@@ -13,7 +13,7 @@ export default function Servicios() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-center justify-items-center content-around">
         {/* image 1 */}
         <div class="group h-52 w-80 perspective-1000p">
-          <div class="relative h-52 w-80 rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div class="relative h-52 w-80 rounded-xl  transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
               <div className="flex justify-center relative">
                 <Image
@@ -33,7 +33,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">249 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  Reserva
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function Servicios() {
 
         {/* image 2 */}
         <div class="group h-52 w-80 [perspective:1000px]">
-          <div class="relative h-52 w-80 rounded-xl  transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div class="relative h-52 w-80 rounded-xl  transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
               <div className="flex justify-center relative">
                 <Image
@@ -62,7 +62,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">375 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  Reserva
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function Servicios() {
 
         {/* image 3 */}
         <div class="group h-56 w-80 [perspective:1000px]">
-          <div class="relative h-56 w-80 rounded-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div class="relative h-56 w-80 rounded-xl transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
               <div className="flex justify-center relative">
                 <Image
@@ -93,7 +93,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">450 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  Reserva
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>

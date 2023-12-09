@@ -5,8 +5,6 @@ import About from "@/components/About";
 import Image from "next/image";
 import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
-import Layout from "@/components/Layout";
-import Services from "@/components/Services";
 import Servicios from "@/components/Servicios";
 
 export default function Home() {
