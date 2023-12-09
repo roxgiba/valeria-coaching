@@ -42,7 +42,7 @@ function About() {
             Después de un golpe emocional significativo a nivel personal, me di
             cuenta que algo faltaba en mi vida. Decidí detenerme y cuestionarme
             si realmente era feliz con lo que hacía. La respuesta fue un rotundo
-            NO`. Ese momento de incertidumbre me llevó a descubrir el mundo del
+            NO. Ese momento de incertidumbre me llevó a descubrir el mundo del
             coaching, una herramienta poderosa y realmente eficaz para conectar
             con tu esencia y trazar tu propio camino.
           </p>
