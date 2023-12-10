@@ -33,7 +33,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">249 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  <a href="https://calendly.com/topaicoach/30min">Reserva</a>
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">375 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  <a href="https://calendly.com/topaicoach/30min">Reserva</a>
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Servicios() {
               <div class="flex min-h-full flex-col items-center justify-center">
                 <h1 class="text-3xl font-bold">450 €</h1>
                 <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                  <a href="https://calendly.com/topaicoach/30min">Reserva</a>
+                  <a href="https://calendly.com/rox-giba">Reserva</a>
                 </button>
               </div>
             </div>

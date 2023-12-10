@@ -10,27 +10,16 @@ function Footer() {
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
       <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover" href="/#about" onClick={handleIconClick}>
+        <a className="link link-hover" href="/#about">
           Sobre mí
         </a>
-        <a
-          className="link link-hover"
-          href="#coaching"
-          onClick={handleIconClick}
-        >
+        <a className="link link-hover" href="#coaching">
           Coaching
         </a>
-        <a
-          className="link link-hover"
-          href="#servicios"
-          onClick={handleIconClick}
-        >
+        <a className="link link-hover" href="#servicios">
           Servicios
         </a>
-        <a
-          href="https://calendly.com/topaicoach/30min"
-          className="link link-hover"
-        >
+        <a href="https://calendly.com/rox-giba" className="link link-hover">
           Sesión gratuita
         </a>
       </nav>
