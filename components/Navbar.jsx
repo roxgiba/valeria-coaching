@@ -6,6 +6,10 @@ import Image from "next/image";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const handleIconClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="navbar bg-base-400 h:18 md:h-32 text-gray-700">
       <div className="navbar-start">
@@ -31,16 +35,24 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
             <li>
-              <a href="/#about">Sobre mí</a>
+              <a href="/#about" onClick={handleIconClick}>
+                Sobre mí
+              </a>
             </li>
             <li>
-              <a href="#coaching">Coaching</a>
+              <a href="#coaching" onClick={handleIconClick}>
+                Coaching
+              </a>
             </li>
             <li>
-              <a href="#servicios">Servicios</a>
+              <a href="#servicios" onClick={handleIconClick}>
+                Servicios
+              </a>
             </li>
             <li className="lg:hidden">
-              <a href="https://calendly.com/rox-giba">Sesión gratuita</a>
+              <a href="https://calendly.com/topaicoach/30min">
+                Sesión gratuita
+              </a>
             </li>
           </ul>
         </div>
@@ -59,7 +71,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://calendly.com/rox-giba"
+          href="https://calendly.com/topaicoach/30min"
           className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block pt-5"
         >
           Reserva tu primera sesión gratuita
