@@ -6,9 +6,9 @@ import Image from "next/image";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const handleIconClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  // const handleIconClick = () => {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // };
 
   return (
     <div className="navbar bg-base-400 h:18 md:h-32 text-gray-700">
@@ -35,19 +35,13 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
             <li>
-              <a href="/#about" onClick={handleIconClick}>
-                Sobre mí
-              </a>
+              <a href="/#about">Sobre mí</a>
             </li>
             <li>
-              <a href="#coaching" onClick={handleIconClick}>
-                Coaching
-              </a>
+              <a href="#coaching">Coaching</a>
             </li>
             <li>
-              <a href="#servicios" onClick={handleIconClick}>
-                Servicios
-              </a>
+              <a href="#servicios">Servicios</a>
             </li>
             <li className="lg:hidden">
               <a href="https://calendly.com/topaicoach/30min">
