@@ -28,7 +28,7 @@ export default function Servicios() {
             </div>
             <div class="absolute inset-0 h-full w-full rounded-xl bg-orange-200 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div class="flex min-h-full flex-col items-center justify-center">
-                <h1 class="text-3xl font-bold text-black">249 €</h1>
+                <h1 class="text-3xl font-bold text-black">249€</h1>
                 <button class="mt-2 rounded-md bg-neutral-700 py-1 px-2 text-sm hover:bg-neutral-900">
                   <a href="https://calendly.com/topaicoach/30min">Reserva</a>
                 </button>
@@ -57,7 +57,7 @@ export default function Servicios() {
             </div>
             <div class="absolute inset-0 h-full w-full rounded-xl bg-orange-200 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div class="flex min-h-full flex-col items-center justify-center">
-                <h1 class="text-3xl font-bold text-black">375 €</h1>
+                <h1 class="text-3xl font-bold text-black">375€</h1>
                 <button class="mt-2 rounded-md bg-neutral-700 py-1 px-2 text-sm hover:bg-neutral-900">
                   <a href="https://calendly.com/topaicoach/30min">Reserva</a>
                 </button>
@@ -88,7 +88,7 @@ export default function Servicios() {
             </div>
             <div class="absolute inset-0 h-full w-full rounded-xl bg-orange-200 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div class="flex min-h-full flex-col items-center justify-center">
-                <h1 class="text-3xl font-bold text-black">450 €</h1>
+                <h1 class="text-3xl font-bold text-black">450€</h1>
                 <button class="mt-2 rounded-md bg-neutral-700 py-1 px-2 text-sm hover:bg-neutral-900">
                   <a href="https://calendly.com/topaicoach/30min">Reserva</a>
                 </button>
