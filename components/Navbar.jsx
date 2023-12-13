@@ -4,8 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
-
   const handleIconClick = (targetId) => {
     const targetElement = document.getElementById(targetId);
 
