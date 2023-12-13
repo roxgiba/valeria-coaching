@@ -19,7 +19,7 @@ export default function SobreMiPage() {
         </Link>
       </div>
 
-      <h3 className="font-semibold text-gray-700 text-2xl lg:text-4xl mt-8 lg:py-16 text-center">
+      <h3 className="font-semibold text-gray-700 text-2xl lg:text-4xl lg:py-10 text-center">
         Sobre mí
       </h3>
       <div className=" text-center text-gray-800 text-lg lg:px-52 tracking-wide ">
