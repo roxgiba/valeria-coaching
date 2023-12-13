@@ -20,7 +20,7 @@ function Footer({ showLink1, showLink2, showLink3 }) {
   };
 
   return (
-    <footer className="footer footer-center p-10 bg-slate-300 text-base-content rounded">
+    <footer className="footer footer-center p-10 bg-base-300 text-base-content rounded">
       <nav className="grid grid-flow-col gap-4">
         {showLink1 && (
           <a className="link link-hover" href="/sobremi">
