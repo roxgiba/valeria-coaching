@@ -16,13 +16,10 @@ function Footer() {
         <a className="link link-hover" href="#coaching">
           Coaching
         </a>
-        <a className="link link-hover" href="#servicios">
+        <a className="link link-hover" href="#servicios" >
           Servicios
         </a>
-        <a
-          href="https://calendly.com/topaicoach/30min"
-          className="link link-hover"
-        >
+        <a href="https://calendly.com/topaicoach/30min" className="link link-hover">
           Sesión gratuita
         </a>
       </nav>
