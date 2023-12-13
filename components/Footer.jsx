@@ -7,16 +7,38 @@ function Footer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const handleClick = (event, targetId) => {
+    event.preventDefault();
+
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
       <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover" href="/#about">
+        <a
+          className="link link-hover"
+          href="/#about"
+          onClick={(e) => handleClick(e, "about")}
+        >
           Sobre mí
         </a>
-        <a className="link link-hover" href="#coaching">
+        <a
+          className="link link-hover"
+          href="#coaching"
+          onClick={(e) => handleClick(e, "coaching")}
+        >
           Coaching
         </a>
-        <a className="link link-hover" href="#servicios">
+        <a
+          className="link link-hover"
+          href="#servicios"
+          onClick={(e) => handleClick(e, "servicios")}
+        >
           Servicios
         </a>
         <a
