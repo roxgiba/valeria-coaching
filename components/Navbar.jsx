@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
-  const handleIconClick = (targetId) => {
+  const handleIconClick = (event, targetId) => {
+    event.preventDefault();
+
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
@@ -36,14 +37,26 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
-            <li onClick={() => handleIconClick("about")}>
-              <a href="/#about">Sobre mí</a>
+            <li>
+              <a href="/#about" onClick={(e) => handleIconClick(e, "about")}>
+                Sobre mí
+              </a>
             </li>
-            <li onClick={() => handleIconClick("coaching")}>
-              <a href="#coaching">Coaching</a>
+            <li>
+              <a
+                href="#coaching"
+                onClick={(e) => handleIconClick(e, "coaching")}
+              >
+                Coaching
+              </a>
             </li>
-            <li onClick={() => handleIconClick("servicios")}>
-              <a href="#servicios">Servicios</a>
+            <li>
+              <a
+                href="#servicios"
+                onClick={(e) => handleIconClick(e, "servicios")}
+              >
+                Servicios
+              </a>
             </li>
             <li className="lg:hidden">
               <a href="https://calendly.com/topaicoach/30min">
