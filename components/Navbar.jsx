@@ -38,9 +38,7 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
             <li>
-              <a href="/#about" onClick={(e) => handleIconClick(e, "about")}>
-                Sobre mí
-              </a>
+              <a href="/sobremi">Sobre mí</a>
             </li>
             <li>
               <a

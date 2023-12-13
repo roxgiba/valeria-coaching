@@ -1,7 +1,7 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import About from "@/components/About";
+// import About from "@/components/About";
 import Image from "next/image";
 import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
@@ -9,9 +9,8 @@ import Servicios from "@/components/Servicios";
 
 export default function Home() {
   return (
-    <main id="sfondo" className="min-h-screen">
+    <main id="/" className="sfondo min-h-screen">
       <Navbar />
-
       <div className="flex items-center justify-center">
         <Image
           src="/girl_flying.avif"
@@ -22,11 +21,13 @@ export default function Home() {
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
         />
       </div>
-
-      <About />
+      <div>
+        <p className="text-center font-bold text-3xl h-48">····</p>
+      </div>
+      {/* <About /> */}
       <Coaching />
       <Servicios />
-      <Footer />
+      <Footer showLink1={true} showLink2={true} showLink3={true} />
     </main>
   );
 }

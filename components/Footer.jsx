@@ -1,8 +1,10 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function Footer() {
+function Footer({ showLink1, showLink2, showLink3 }) {
   const handleIconClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -18,29 +20,31 @@ function Footer() {
   };
 
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center p-10 bg-slate-300 text-base-content rounded">
       <nav className="grid grid-flow-col gap-4">
-        <a
-          className="link link-hover"
-          href="/#about"
-          onClick={(e) => handleClick(e, "about")}
-        >
-          Sobre mí
-        </a>
-        <a
-          className="link link-hover"
-          href="#coaching"
-          onClick={(e) => handleClick(e, "coaching")}
-        >
-          Coaching
-        </a>
-        <a
-          className="link link-hover"
-          href="#servicios"
-          onClick={(e) => handleClick(e, "servicios")}
-        >
-          Servicios
-        </a>
+        {showLink1 && (
+          <a className="link link-hover" href="/sobremi">
+            Sobre mí
+          </a>
+        )}
+        {showLink2 && (
+          <a
+            className="link link-hover"
+            href="#coaching"
+            onClick={(e) => handleClick(e, "coaching")}
+          >
+            Coaching
+          </a>
+        )}
+        {showLink3 && (
+          <a
+            className="link link-hover"
+            href="#servicios"
+            onClick={(e) => handleClick(e, "servicios")}
+          >
+            Servicios
+          </a>
+        )}
         <a
           href="https://calendly.com/topaicoach/30min"
           className="link link-hover"
