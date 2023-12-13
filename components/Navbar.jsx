@@ -6,6 +6,14 @@ import Image from "next/image";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
+  const handleIconClick = (targetId) => {
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="navbar bg-base-400 h:18 md:h-32 text-gray-700">
       <div className="navbar-start">
@@ -30,17 +38,19 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white/30 rounded-box w-52"
           >
-            <li>
+            <li onClick={() => handleIconClick("about")}>
               <a href="/#about">Sobre mí</a>
             </li>
-            <li>
+            <li onClick={() => handleIconClick("coaching")}>
               <a href="#coaching">Coaching</a>
             </li>
-            <li>
+            <li onClick={() => handleIconClick("servicios")}>
               <a href="#servicios">Servicios</a>
             </li>
             <li className="lg:hidden">
-              <a href="https://calendly.com/rox-giba">Sesión gratuita</a>
+              <a href="https://calendly.com/topaicoach/30min">
+                Sesión gratuita
+              </a>
             </li>
           </ul>
         </div>
@@ -59,7 +69,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://calendly.com/rox-giba"
+          href="https://calendly.com/topaicoach/30min"
           className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block pt-5"
         >
           Reserva tu primera sesión gratuita
