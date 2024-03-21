@@ -51,7 +51,7 @@ function Coaching() {
     <div id="coaching">
       <div className="md:flex md:items-center md:justify-center pb-10">
         <div className="flex items-center justify-between text-amber-700 place-items-center md:w-1/2 md:pl-5">
-          <h1 className="font-bold text-4xl uppercase pb-5 text-center">
+          <h1 className="font-bold text-4xl uppercase pb-5 pr-4 text-center">
             ¿En qué consiste un proceso de Coaching?
           </h1>
         </div>
