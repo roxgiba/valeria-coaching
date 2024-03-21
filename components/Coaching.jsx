@@ -66,7 +66,7 @@ function Coaching() {
         </div>
       </div>
 
-      <div className="lg:px-72 text-black text-center font-bold text-lg lg:text-xl grid grid-cols-1 lg:grid-cols-2 gap-8 justify-items-center">
+      <div className="md:px-48  text-black text-center font-bold text-lg md:text-xl grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
         {renderCoachingItems()}
       </div>
       <div className="flex justify-center ">
