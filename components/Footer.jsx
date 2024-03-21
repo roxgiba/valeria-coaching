@@ -19,6 +19,8 @@ function Footer({ showLink1, showLink2, showLink3 }) {
     }
   };
 
+  let currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer footer-center p-10 bg-gray-300 text-black rounded">
       <nav className="grid grid-flow-col gap-4">
@@ -90,7 +92,7 @@ function Footer({ showLink1, showLink2, showLink3 }) {
         </div>
       </nav>
       <aside>
-        <p>Copyright © 2023 - All right reserved by Valeria Topai</p>
+        <p>Copyright © {currentYear} - All right reserved by Valeria Topai</p>
         <Image
           src="/icon.png"
           alt="colibri"
