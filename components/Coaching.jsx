@@ -61,7 +61,7 @@ function Coaching() {
             alt="drawing of 2 persons untangling the mess into a big head"
             width={600}
             height={600}
-            className="bg-contain bg-center"
+            className="bg-contain bg-center rounded-2xl shadow-lg"
           />
         </div>
       </div>
