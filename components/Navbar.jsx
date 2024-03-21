@@ -79,7 +79,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://calendly.com/topaicoach/30min"
+          //  href="https://calendly.com/topaicoach/30min"
+          href="/contactForm"
           className="btn btn-ghost md:btn-md lg:btn-lg hidden lg:inline-block pt-5"
         >
           Reserva tu primera sesión gratuita

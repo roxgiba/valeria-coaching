@@ -48,7 +48,8 @@ function Footer({ showLink1, showLink2, showLink3 }) {
           </a>
         )}
         <a
-          href="https://calendly.com/topaicoach/30min"
+          //  href="https://calendly.com/topaicoach/30min"
+          href="/contactForm"
           className="link link-hover"
         >
           Sesión gratuita
