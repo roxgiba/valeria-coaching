@@ -57,9 +57,10 @@ const Navbar = () => {
               </a>
             </li>
             <li className="lg:hidden">
-              <a href="https://calendly.com/topaicoach/30min">
+              {/* <a href="https://calendly.com/topaicoach/30min">
                 Sesión gratuita
-              </a>
+              </a> */}
+              <a href="/contactForm">Sesión gratuita</a>
             </li>
           </ul>
         </div>
