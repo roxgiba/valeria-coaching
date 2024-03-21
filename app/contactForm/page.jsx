@@ -4,6 +4,8 @@ import React from "react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+import Link from "next/link";
 
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -40,8 +42,19 @@ const ContactForm = () => {
     e.target.reset();
   };
   return (
-    <div>
-      <form onSubmit={sendEmail} className="sfondo min-h-screen">
+    <div className="sfondo min-h-screen">
+      <Link href="/">
+        <Image
+          src="/icon.png"
+          alt="colibri"
+          href="/"
+          width={50}
+          height={50}
+          className="pt-8 ml-8"
+        />
+      </Link>
+
+      <form onSubmit={sendEmail}>
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-10">
           <div className="sm:col-span-4">
             <label
