@@ -73,7 +73,7 @@ const Navbar = () => {
           height={50}
           className=""
         />
-        <a className="font-semibold text-md lg:text-3xl">
+        <a className="font-semibold text-xl lg:text-3xl">
           Coaching by <span className="italic">Valeria Topai</span>
         </a>
       </div>

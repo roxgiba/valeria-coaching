@@ -99,7 +99,7 @@ function Footer({ showLink1, showLink2, showLink3 }) {
           alt="colibri"
           width={50}
           height={50}
-          className=""
+          className="cursor-pointer"
           onClick={handleIconClick}
         />
       </aside>

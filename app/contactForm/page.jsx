@@ -55,7 +55,7 @@ const ContactForm = () => {
       </Link>
 
       <form onSubmit={sendEmail} className="flex justify-center ">
-        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-10 bg-sky-100 rounded-md shadow-md my-10">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-8 bg-sky-200/80 rounded-md shadow-md my-10">
           <div className="sm:col-span-4">
             <label
               htmlFor="user_name"
@@ -99,7 +99,7 @@ const ContactForm = () => {
           <div className="col-span-full">
             <label
               htmlFor="about"
-              className="block text-sm font-medium leading-6 text-gray-900 "
+              className="block text-sm font-medium leading-6  text-gray-900 "
             >
               Mensaje
             </label>
@@ -108,7 +108,7 @@ const ContactForm = () => {
                 id="message"
                 name="message"
                 rows={3}
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 indent-1 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 defaultValue={""}
                 placeholder="Escribe aqui tu pregunta..."
               />
