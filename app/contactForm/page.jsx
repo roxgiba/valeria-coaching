@@ -1,21 +1,43 @@
 "use client";
 
 import React from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
 
 const ContactForm = () => {
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [stateMessage, setStateMessage] = useState(null);
+  // const [isSubmitting, setIsSubmitting] = useState(false);
+  //  const [stateMessage, setStateMessage] = useState(null);
 
-  const service_id = process.env.YOUR_SERVICE_ID;
-  const template_id = process.env.YOUR_TEMPLATE_ID;
-  const public_id = process.env.YOUR_PUBLIC_KEY;
+  // const service_id = process.env.YOUR_SERVICE_ID;
+  // const template_id = process.env.YOUR_TEMPLATE_ID;
+  // const public_id = process.env.YOUR_PUBLIC_KEY;
 
-  // const form = useRef();
+  const service_id = "service_xtqinmh";
+  const template_id = "template_escdw2i";
+  const public_id = "3eEXggHjwJT-Xu0KE";
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(service_id, template_id, form.current, {
+        publicKey: public_id,
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+    e.target.reset();
+  };
 
   // const sendEmail = (e) => {
   //   e.preventDefault();
@@ -35,37 +57,37 @@ const ContactForm = () => {
   //   e.target.reset();
   // };
 
-  const sendEmail = (e) => {
-    e.persist();
-    e.preventDefault();
-    setIsSubmitting(true);
-    emailjs
-      .sendForm(
-        process.env.YOUR_SERVICE_ID,
-        process.env.YOUR_TEMPLATE_ID,
-        e.target,
-        process.env.YOUR_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          setStateMessage("Message sent!");
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
-        },
-        (error) => {
-          setStateMessage("Something went wrong, please try again later");
-          setIsSubmitting(false);
-          setTimeout(() => {
-            setStateMessage(null);
-          }, 5000); // hide message after 5 seconds
-        }
-      );
+  // const sendEmail = (e) => {
+  //   e.persist();
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
+  //   emailjs
+  //     .sendForm(
+  //       process.env.YOUR_SERVICE_ID,
+  //       process.env.YOUR_TEMPLATE_ID,
+  //       e.target,
+  //       process.env.YOUR_PUBLIC_KEY
+  //     )
+  //     .then(
+  //       (result) => {
+  //         setStateMessage("Message sent!");
+  //         setIsSubmitting(false);
+  //         setTimeout(() => {
+  //           setStateMessage(null);
+  //         }, 5000); // hide message after 5 seconds
+  //       },
+  //       (error) => {
+  //         setStateMessage("Something went wrong, please try again later");
+  //         setIsSubmitting(false);
+  //         setTimeout(() => {
+  //           setStateMessage(null);
+  //         }, 5000); // hide message after 5 seconds
+  //       }
+  //     );
 
-    // Clears the form after sending the email
-    e.target.reset();
-  };
+  //   // Clears the form after sending the email
+  //   e.target.reset();
+  // };
 
   return (
     <div className="sfondo min-h-screen">
@@ -143,10 +165,10 @@ const ContactForm = () => {
             <input
               type="submit"
               value="Envia"
-              disabled={isSubmitting}
+              //    disabled={isSubmitting}
               className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
             />
-            {stateMessage && <p>{stateMessage}</p>}
+            {/* {stateMessage && <p>{stateMessage}</p>} */}
           </div>
         </div>
       </form>
