@@ -10,11 +10,6 @@ p {
   background-color: #ffddcc;
 }
 
-.form {
-  background-color: rgb(255, 227, 186);
-  align-content: center;
-}
-
 html {
   font-family: var(--font-montserrat);
 }

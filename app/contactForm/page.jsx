@@ -10,16 +10,41 @@ import Link from "next/link";
 const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
+
+  const service_id = process.env.YOUR_SERVICE_ID;
+  const template_id = process.env.YOUR_TEMPLATE_ID;
+  const public_id = process.env.YOUR_PUBLIC_KEY;
+
+  // const form = useRef();
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(service_id, template_id, form.current, {
+  //       publicKey: public_id,
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log("SUCCESS!");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+  //   e.target.reset();
+  // };
+
   const sendEmail = (e) => {
     e.persist();
     e.preventDefault();
     setIsSubmitting(true);
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        process.env.YOUR_SERVICE_ID,
+        process.env.YOUR_TEMPLATE_ID,
         e.target,
-        process.env.REACT_APP_PUBLIC_KEY
+        process.env.YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -41,6 +66,7 @@ const ContactForm = () => {
     // Clears the form after sending the email
     e.target.reset();
   };
+
   return (
     <div className="sfondo min-h-screen">
       <Link href="/">
