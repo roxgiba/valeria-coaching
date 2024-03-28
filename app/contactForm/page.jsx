@@ -54,8 +54,8 @@ const ContactForm = () => {
         />
       </Link>
 
-      <form onSubmit={sendEmail}>
-        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-10">
+      <form onSubmit={sendEmail} className="flex justify-center ">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 p-10 bg-sky-100 rounded-md shadow-md my-10">
           <div className="sm:col-span-4">
             <label
               htmlFor="user_name"
@@ -70,7 +70,7 @@ const ContactForm = () => {
                   name="user_name"
                   id="user_name"
                   autoComplete="user_name"
-                  className="block flex-1 border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                  className="block flex-1 rounded-md border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                   placeholder="Tu nombre"
                 />
               </div>
@@ -90,7 +90,7 @@ const ContactForm = () => {
                   type="email"
                   name="user_email"
                   placeholder="Tu correo electronico"
-                  className="block flex-1 border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                  className="block flex-1 rounded-md border-0 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -99,7 +99,7 @@ const ContactForm = () => {
           <div className="col-span-full">
             <label
               htmlFor="about"
-              className="block text-sm font-medium leading-6 text-gray-900"
+              className="block text-sm font-medium leading-6 text-gray-900 "
             >
               Mensaje
             </label>
